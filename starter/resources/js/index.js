@@ -41,7 +41,7 @@ count++
        p0.innerHTML = `<span>Predmet:</span> ${predmet.value}`
        p1.innerHTML = `<span>Profesor:</span> ${profesor.value}`
        p2.innerHTML = `<span>Datum: </span> ${cas.datum}`
-       p3.innerHTML = `<span>Vreme: </span> ${profesor.value}`
+       p3.innerHTML = `<span>Vreme: </span> ${cas.vreme}`
 
        const btnObrisi = document.createElement('button')
            btnObrisi.innerText = 'Обриши'
